@@ -2,7 +2,7 @@ export const mainProject = [
   {
     id: 1,
     url: "https://memory-community.herokuapp.com/",
-    img: process.env.PUBLIC_URL + `/img/projects/move.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/memory.png`,
     title: "Memory Community",
     content: `본 프로젝트는 React를 이용하여 로그인, 글 작성, 수정 및 삭제, 프로필 수정 등의 페이지로 구성되어 있는 Web Aplication Project 입니다. mongo DB를 이용하여  작성한 글이 다른 사용자들과 소통하는 커뮤니티를 구현하였습니다.`,
     Frontend: "React, Styled-Component , Bootstrap,",
@@ -11,7 +11,7 @@ export const mainProject = [
   {
     id: 2,
     url: "https://github.com/Hongsinwon/minton-in",
-    img: process.env.PUBLIC_URL + `/img/projects/move.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/mintonin.png`,
     title: "Mintonin",
     content: `본 프로젝트는 Javascript를 이용하여, 랜딩페이지, 서브페이지 등의 페이지로 구성되어 있는 Mobile Renewal Project 입니다. 어플의 UI/UX를 전반적으로 수정하였고, 어플의 편의성을 위해 다양한 기능을 구현하였습니다.`,
     Frontend: "HTML5, CSS3, Java script",
@@ -20,7 +20,7 @@ export const mainProject = [
   {
     id: 3,
     url: "https://hongsinwon-mydiary.web.app/",
-    img: process.env.PUBLIC_URL + `/img/projects/move.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/mydiary.png`,
     title: "My Diary",
     content: `본 프로젝트는 React를 이용하여  글 작성, 수정 및 삭제 , 등의 페이지로 구성되어 있는 Web Aplication Project 입니다. Local Storage를 이용하여 사용자가 입력한 리스트를 저장, 수정 및 삭제할수있도록 구현하였습니다.`,
     Frontend: "React, CSS3, Localstorage",
@@ -29,9 +29,9 @@ export const mainProject = [
   {
     id: 4,
     url: "",
-    img: process.env.PUBLIC_URL + `/img/projects/move.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/api.png`,
     title: "준비중",
-    content: `본 프로젝트는 Javascript를 이용하여, 랜딩페이지, 서브페이지 등의 페이지로 구성되어 있는 Mobile Renewal Project 입니다. 어플의 UI/UX를 전반적으로 수정하였고, 어플의 편의성을 위해 다양한 기능을 구현하였습니다.`,
+    content: `준비중...`,
     Frontend: "-",
     Backend: "-",
   },
@@ -41,7 +41,7 @@ export const subProject = [
   {
     id: 5,
     url: "https://hongsinwon.github.io/nwitter/#/",
-    img: process.env.PUBLIC_URL + `/img/projects/move.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/nwitter.png`,
     title: "트위터 클론 코딩 - Nwitter",
     content: `본 프로젝트는 React를 이용하여 로그인, 글 작성, 수정 및 삭제 등의 페이지로 구성되어 있는 Web Aplication Project 입니다. Firebase를 이용하여 로그인과 데이터 저장을 구현하였습니다.`,
     Frontend: "React, CSS3",
