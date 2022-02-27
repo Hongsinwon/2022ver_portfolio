@@ -26,15 +26,6 @@ export const mainProject = [
     Frontend: "React, CSS3, Localstorage",
     Backend: "-",
   },
-  {
-    id: 4,
-    url: "",
-    img: process.env.PUBLIC_URL + `/img/projects/api.png`,
-    title: "준비중",
-    content: `준비중...`,
-    Frontend: "-",
-    Backend: "-",
-  },
 ];
 
 export const subProject = [
