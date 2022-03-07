@@ -18,7 +18,7 @@ const AboutMe = () => {
           <h2>👏 MY PROFILE </h2>
           <div className="content">
             <img
-              src={process.env.PUBLIC_URL + `/img/about_me/picture.JPG`}
+              src={process.env.PUBLIC_URL + `/img/about_me/picture.jpg`}
               alt="홍신원 증명사진"
               className="picture"
             />

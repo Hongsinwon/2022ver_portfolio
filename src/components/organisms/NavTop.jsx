@@ -35,14 +35,14 @@ const NavTop = () => {
               ))}
             </div>
             <div className="archivung">
-              <a href="https://github.com/Hongsinwon">
+              <a href="https://github.com/Hongsinwon" target="_blank">
                 <img
                   src={process.env.PUBLIC_URL + `/img/icon/github_w.png`}
                   alt="깃허브"
                 />
                 <span className="ir_pm">깃허브</span>
               </a>
-              <a href="https://tlsdnjs12.tistory.com/">
+              <a href="https://tlsdnjs12.tistory.com/" target="_blank">
                 <img
                   src={process.env.PUBLIC_URL + `/img/icon/tistory_w.png`}
                   alt="티스토리"
