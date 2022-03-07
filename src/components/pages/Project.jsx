@@ -20,7 +20,7 @@ const Project = () => {
           <ProjectList>
             {mainProject.map(
               ({ id, url, img, title, content, Frontend, Backend }) => (
-                <a key={id} href={url}>
+                <a key={id} href={url} target="_blank">
                   <img src={img} alt={title} />
                   <ProjectContent>
                     <h3>{title}</h3>

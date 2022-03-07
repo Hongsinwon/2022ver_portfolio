@@ -101,7 +101,7 @@ export const NavTopMenu = styled.nav`
       img {
         margin: 0 7.5px;
         padding-bottom: 15px;
-        width: 35px;
+        width: 30px;
         opacity: 1;
       }
     }
