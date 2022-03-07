@@ -100,7 +100,8 @@ button {
   font-size: 0;
   line-height: 0;
   text-indent: -9999px;
-} /* �ǹ��ִ� �̹����� ��ü �ؽ�Ʈ�� �����ϴ� ���(Phark Method) */
+} 
+
 .ir_wa {
   display: block;
   overflow: hidden;
@@ -108,7 +109,8 @@ button {
   z-index: -1;
   width: 100%;
   height: 100%;
-} /* �ǹ��ִ� �̹����� ��ü �ؽ�Ʈ�� �̹����� ��� ��ü �ؽ�Ʈ�� �����ְ��� �� ��(WA IR) */
+} 
+
 .ir_su {
   overflow: hidden;
   position: absolute;
@@ -116,7 +118,7 @@ button {
   height: 0;
   line-height: 0;
   text-indent: -9999px;
-} /* ��ü �ؽ�Ʈ�� �ƴ� ���ټ��� ���� ���� �ؽ�Ʈ�� ������ �� */
+} 
 
 video {
   width: 100%;
