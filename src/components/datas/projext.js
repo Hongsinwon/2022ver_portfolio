@@ -11,7 +11,7 @@ export const mainProject = [
   {
     id: 2,
     url: "https://github.com/Hongsinwon/minton-in",
-    img: process.env.PUBLIC_URL + `/img/projects/mintonin.png`,
+    img: process.env.PUBLIC_URL + `/img/projects/sruptube.png`,
     title: "SrupTube",
     content: `본 프로젝트는 React를 이용하여 인기동영상 목록, 검색동영상 목록, 영상시청 등의 페이지로 구성되어 있는 Web Aplication Project 입니다. 유튜브 API를 이용하여 리스트를 출력하고 시청까지 가능한 플랫폼을 구현하였습니다. `,
     Frontend: "React, Styled-Component, Bootstrap",

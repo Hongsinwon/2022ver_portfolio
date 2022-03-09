@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { linkList } from "../datas/navtop"; // datas -> nav 메뉴리스트
 import styled from "styled-components";
 
 const ScrollNav = () => {
+  const [ScrollY, setScrollY] = useState(0); // window 의 pageYOffset값을 저장
+  const [ScrollActive, setScrollActive] = useState(false);
+
+  function handleScroll() {
+    if (ScrollY > 299) {
+      setScrollY(window.pageYOffset);
+      setScrollActive(true);
+    } else {
+      setScrollY(window.pageYOffset);
+      setScrollActive(false);
+    }
+  }
+
+  useEffect(() => {
+    function scrollListener() {
+      window.addEventListener("scroll", handleScroll);
+    } //  window 에서 스크롤을 감시 시작
+    scrollListener(); // window 에서 스크롤을 감시
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    }; //  window 에서 스크롤을 감시를 종료
+  });
+
   return (
-    <ScrollNavDiv>
+    <ScrollNavDiv ScrollActive={ScrollActive}>
       <div>
         <ScrollNavMenu>
           <div>
@@ -43,6 +66,8 @@ const ScrollNavDiv = styled.div`
   height: 50px;
   border: 1px solid #eee;
   background: #fff;
+  z-index: 99;
+  opacity: ${({ ScrollActive }) => (ScrollActive ? 1 : 0)};
 
   div {
     margin: 0 auto;
@@ -110,6 +135,8 @@ export const ScrollNavLink = styled(NavLink)`
   color: #0047bb;
   background: #fff;
   box-sizing: border-box;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   &.active p {
     height: 100%;
     background: #0047bb;

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavTop } from "../organisms";
+import { NavTop, TopScrollBtn } from "../organisms";
 import { mainProject, subProject } from "../datas/projext";
 
 import {
@@ -44,7 +44,7 @@ const Project = () => {
           <ProjectList>
             {subProject.map(
               ({ id, url, img, title, content, Frontend, Backend }) => (
-                <a key={id} href={url}>
+                <a key={id} href={url} target="_blank">
                   <img src={img} alt={title} />
                   <ProjectContent>
                     <h3>{title}</h3>
@@ -64,6 +64,7 @@ const Project = () => {
           </ProjectList>
         </ProjectSub>
       </ProjectWrap>
+      <TopScrollBtn />
     </>
   );
 };

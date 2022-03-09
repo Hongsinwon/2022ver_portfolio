@@ -1,5 +1,5 @@
 import React from "react";
-import { NavTop, SideMenu } from "../organisms";
+import { NavTop, TopScrollBtn } from "../organisms";
 import { frontendIamge, backendIamge } from "../datas/aboutMe";
 import {
   AboutMeWrap,
@@ -79,8 +79,7 @@ const AboutMe = () => {
             </SkilleList>
           </div>
         </AboutMeSkille>
-
-        <SideMenu />
+        <TopScrollBtn />
       </AboutMeWrap>
     </>
   );
