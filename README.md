@@ -14,3 +14,21 @@
   2. css
   3. React.js
   4. firebase
+
+
+  </br>
+
+  --------------------------------------------
+  </br>
+  
+  ## 완성된 페이지
+  
+  #### 1. PROJECTS
+![PROJECTS](images/projects.png)
+
+ </br>
+
+#### 2. ABOUT ME
+![ABOUT ME](images/about-me.png)
+
+ </br>
